@@ -1,5 +1,5 @@
 🎮Flappy Bird Game
-A simple and fun **Flappy Bird** clone created using Python and Pygame! Guide your bird through the obstacles and achieve the highest score possible.
+ A simple and fun **Flappy Bird** clone created using Python and Pygame! Guide your bird through the obstacles and achieve the highest score possible.
 
 🎯 How to Play
 1. **Start the game**: Launch the game by running the `flappy.py` script.
