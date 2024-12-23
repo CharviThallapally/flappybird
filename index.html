@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird Game</title>
+  <style>
+    /* Ensure the body and html take up full viewport height */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(135deg, #6495ed, #b0e0e6); /* Soft blue gradient */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+
+    /* Centering content vertically and horizontally using flexbox */
+    .container {
+      width: 80%; /* Takes up 80% of the width of the screen */
+      max-width: 600px; /* Maximum width for large screens */
+    }
+
+    h1 {
+      color: #5a2a83;
+      font-size: 2rem; /* Larger heading */
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .button {
+      margin-top: 1rem;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    code {
+      background-color: #f4f4f4;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-family: monospace;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🐦 Flappy Bird Game 🐦</h1>
+    <p>A fun game where you help the bird fly through obstacles!</p>
+    
+    <h2>📥 Download the Code</h2>
+    <p>You can download and run the code from the GitHub repository:</p>
+    <a class="button" href="https://github.com/CharviThallapally/flappy" target="_blank">Visit Repository</a>
+
+    <h2>💻 How to Run the Game</h2>
+    <p>1. Clone the repository:</p>
+    <code>git clone https://github.com/CharviThallapally/flappy
+    </code>
+    <p>2. Install Python (if not already installed).</p>
+    <p>3. Run the script:</p>
+    <code>python flappy_bird_game.py</code>
+  </div>
+</body>
+</html>
